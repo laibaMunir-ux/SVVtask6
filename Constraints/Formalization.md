@@ -34,3 +34,14 @@
 | F4 | C4 | Barrier_Opening → (TC ∧ ¬TP) |
 | F5 | C5 | (TA ∨ TP) → RR |
 
+## Person B
+
+| ID | Constraint | Formal expression |
+|---|---|---|
+| F7 | C7 | SF → (BC ∧ WA ∧ RR) |
+| F8 | C8 | CL → FS, where FS ↔ (BC ∧ WA ∧ AL) |
+| F9 | C9 | SC → ¬BO |
+| F10 | C10 | BF → (CCA ∧ RR) |
+| F11 | C11 | EM → (BC ∧ AL ∧ CCA) |
+
+**Total formalized:** 10 (requirement: at least 8). C6 and C12 stay informal.
